@@ -24,6 +24,7 @@ while quit_Program == "NO":
     except ValueError as ve:
       print("please type a number")
 
+  #TODO actually make different speeds matter/optional
   while current_Speed == "NAN":
     try:
       current_Speed = int(input("Current speed: knots \n"))
